@@ -9,7 +9,7 @@
     <link rel="favicon" href="{{ site.baseurl }}/static/img/favicon.ico">
 
     {% if page.title %}
-      <title>{{ page.title }}</title>
+      <title>{{ page.title }} - {{ site.title }}</title>
     {% else %}
       <title>{{ site.title }}</title>
     {% endif %}
@@ -25,10 +25,13 @@
     <![endif]-->
 
 	<!-- Custom styles for this template -->
-    <link rel="stylesheet" type="text/css" href="{{ site.baseurl }}/static/css/main.css" />
-	<!-- <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:200,400,200bold,400old" /> -->
+  <link rel="stylesheet" type="text/css" href="{{ site.baseurl }}/static/css/main.css" />
 	<link rel="stylesheet" type="text/css" href="{{ site.baseurl }}/static/css/font-awesome.min.css" />
   <link rel="stylesheet" type="text/css" href="{{ site.baseurl }}/static/css/syntax.css" />
+
+  <!-- Custom fonts for this template -->
+  <link rel="stylesheet" type="text/css" href="{{ site.baseurl }}/static/fonts/megrim.ttf" />
+  <link rel="stylesheet" type="text/css" href="{{ site.baseurl }}/static/fonts/sourcesanspro.woff2" />
 
   </head>
   <!-- Main Body-->
