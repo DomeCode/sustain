@@ -20,8 +20,6 @@ avatar: profile.png
 email: mail@domenick-lieneweg.de
 github: DomeCode
 twitter:
-instagram:
-facebook:
 
 # needed for travis-ci build
 exclude: [vendor]
