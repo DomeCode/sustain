@@ -18,8 +18,7 @@ author: Domenick Lieneweg
 description: Persoenlicher Blog und Projekt-Verzeichnis
 avatar: profile.png
 email: mail@domenick-lieneweg.de
-github: DomeCode
-twitter:
+twitter: DomeTwitt
 
 # needed for travis-ci build
 exclude: [vendor]
